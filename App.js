@@ -51,7 +51,7 @@ class Search extends Component {
         <div className="wrap">
           <input
             className="searchbar"
-            placeholder="Search for..."
+            placeholder="Search "
             ref={input => (this.search = input)}
             onChange={this.handleInputChange}
             list="datalist"
